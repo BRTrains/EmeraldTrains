@@ -1,7 +1,7 @@
 {
   "build_success": true,
   "builder_commit": "bf714dd0d8dc267662d5d6f798498d9a6becfa8b",
-  "generated_at": "2026-10-03T14:59:17.330492Z",
+  "generated_at": "2026-10-03T21:43:08.920677Z",
   "liveries": [
     {
       "name": "NI",
@@ -58,8 +58,8 @@
         "speed": 90,
         "sprite_pattern": [
           1,
-          2,
-          1
+          3,
+          2
         ],
         "track_type": null,
         "weight": 126
@@ -90,11 +90,11 @@
         "speed": 90,
         "sprite_pattern": [
           1,
-          2,
-          2,
-          2,
-          2,
-          1
+          3,
+          3,
+          3,
+          3,
+          2
         ],
         "track_type": null,
         "weight": 126
@@ -156,8 +156,8 @@
         "speed": 100,
         "sprite_pattern": [
           1,
-          2,
-          1
+          3,
+          2
         ],
         "track_type": null,
         "weight": 189
@@ -182,13 +182,19 @@
         "part_count": 3,
         "sprite_pattern": [
           1,
-          2,
-          1
+          3,
+          2
         ]
       },
       "lighting": {
-        "overlay": null,
-        "transparent": null
+        "overlay": {
+          "kind": "lighting_overlay",
+          "path": "WorkingData/EmeraldTrains/NI_4000_lights.png"
+        },
+        "transparent": {
+          "kind": "lighting_transparent",
+          "path": "WorkingData/EmeraldTrains/NI_4000_transparent.png"
+        }
       },
       "livery": {
         "name": "NI"
@@ -200,7 +206,7 @@
       "purchase": {
         "file": {
           "kind": "purchase_spritesheet",
-          "path": "WorkingData/EmeraldTrains/purchase_ni_4000_NI_4000_0_NI_4000_26_NI_4000_0.png"
+          "path": "WorkingData/EmeraldTrains/purchase_ni_4000_NI_4000_0_NI_4000_52_NI_4000_26.png"
         },
         "name": "spriteset_ni_4000_4000_3_ni_train_purchase",
         "rows": [
@@ -403,11 +409,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y26",
+          "source_name": "spriteset_y52",
           "spriteset": "spriteset_ni_4000_4000_3_ni_train_1",
           "template": "tmpl_train_8",
           "x": 0,
-          "y": 26
+          "y": 52
         },
         {
           "file": {
@@ -490,11 +496,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y0",
-          "spriteset": "spriteset_ni_4000_4000_3_ni_train_0",
+          "source_name": "spriteset_y26",
+          "spriteset": "spriteset_ni_4000_4000_3_ni_train_2",
           "template": "tmpl_train_8",
           "x": 0,
-          "y": 0
+          "y": 26
         }
       ],
       "variant": {
@@ -517,16 +523,22 @@
         "part_count": 6,
         "sprite_pattern": [
           1,
-          2,
-          2,
-          2,
-          2,
-          1
+          3,
+          3,
+          3,
+          3,
+          2
         ]
       },
       "lighting": {
-        "overlay": null,
-        "transparent": null
+        "overlay": {
+          "kind": "lighting_overlay",
+          "path": "WorkingData/EmeraldTrains/NI_4000_lights.png"
+        },
+        "transparent": {
+          "kind": "lighting_transparent",
+          "path": "WorkingData/EmeraldTrains/NI_4000_transparent.png"
+        }
       },
       "livery": {
         "name": "NI"
@@ -538,7 +550,7 @@
       "purchase": {
         "file": {
           "kind": "purchase_spritesheet",
-          "path": "WorkingData/EmeraldTrains/purchase_ni_4000_NI_4000_0_NI_4000_26_NI_4000_26_NI_4000_26_NI_4000_26_NI_4000_0.png"
+          "path": "WorkingData/EmeraldTrains/purchase_ni_4000_NI_4000_0_NI_4000_52_NI_4000_52_NI_4000_52_NI_4000_52_NI_4000_26.png"
         },
         "name": "spriteset_ni_4000_4000_6_ni_train_purchase",
         "rows": [
@@ -741,11 +753,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y26",
+          "source_name": "spriteset_y52",
           "spriteset": "spriteset_ni_4000_4000_6_ni_train_1",
           "template": "tmpl_train_8",
           "x": 0,
-          "y": 26
+          "y": 52
         },
         {
           "file": {
@@ -828,11 +840,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y26",
+          "source_name": "spriteset_y52",
           "spriteset": "spriteset_ni_4000_4000_6_ni_train_1",
           "template": "tmpl_train_8",
           "x": 0,
-          "y": 26
+          "y": 52
         },
         {
           "file": {
@@ -915,11 +927,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y26",
+          "source_name": "spriteset_y52",
           "spriteset": "spriteset_ni_4000_4000_6_ni_train_1",
           "template": "tmpl_train_8",
           "x": 0,
-          "y": 26
+          "y": 52
         },
         {
           "file": {
@@ -1002,11 +1014,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y26",
+          "source_name": "spriteset_y52",
           "spriteset": "spriteset_ni_4000_4000_6_ni_train_1",
           "template": "tmpl_train_8",
           "x": 0,
-          "y": 26
+          "y": 52
         },
         {
           "file": {
@@ -1089,11 +1101,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y0",
-          "spriteset": "spriteset_ni_4000_4000_6_ni_train_0",
+          "source_name": "spriteset_y26",
+          "spriteset": "spriteset_ni_4000_4000_6_ni_train_2",
           "template": "tmpl_train_8",
           "x": 0,
-          "y": 0
+          "y": 26
         }
       ],
       "variant": {
@@ -1368,13 +1380,19 @@
         "part_count": 3,
         "sprite_pattern": [
           1,
-          2,
-          1
+          3,
+          2
         ]
       },
       "lighting": {
-        "overlay": null,
-        "transparent": null
+        "overlay": {
+          "kind": "lighting_overlay",
+          "path": "WorkingData/EmeraldTrains/IE_22000_lights.png"
+        },
+        "transparent": {
+          "kind": "lighting_transparent",
+          "path": "WorkingData/EmeraldTrains/IE_22000_transparent.png"
+        }
       },
       "livery": {
         "name": "IE"
@@ -1386,7 +1404,7 @@
       "purchase": {
         "file": {
           "kind": "purchase_spritesheet",
-          "path": "WorkingData/EmeraldTrains/purchase_ie_22000_IE_22000_0_IE_22000_26_IE_22000_0.png"
+          "path": "WorkingData/EmeraldTrains/purchase_ie_22000_IE_22000_0_IE_22000_52_IE_22000_26.png"
         },
         "name": "spriteset_ie_22000_22000_3_ie_train_purchase",
         "rows": [
@@ -1588,11 +1606,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y26",
+          "source_name": "spriteset_y52",
           "spriteset": "spriteset_ie_22000_22000_3_ie_train_1",
           "template": "tmpl_train_8",
           "x": 0,
-          "y": 26
+          "y": 52
         },
         {
           "file": {
@@ -1675,11 +1693,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y0",
-          "spriteset": "spriteset_ie_22000_22000_3_ie_train_0",
+          "source_name": "spriteset_y26",
+          "spriteset": "spriteset_ie_22000_22000_3_ie_train_2",
           "template": "tmpl_train_8",
           "x": 0,
-          "y": 0
+          "y": 26
         }
       ],
       "variant": {
