@@ -30,7 +30,7 @@ profiles:
     num_vehicles: 6
     capacity: 71
     sprite_group: '4000_3'
-    sprite_override: [1, 3, 2, 2, 2, 1]
+    sprite_override: [1, 3, 3, 3, 3, 2]
 
 liveries:
   - name: NI
