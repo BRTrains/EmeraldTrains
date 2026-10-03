@@ -1,8 +1,20 @@
 {
   "build_success": true,
   "builder_commit": "bf714dd0d8dc267662d5d6f798498d9a6becfa8b",
-  "generated_at": "2026-10-03T14:46:21.583068Z",
+  "generated_at": "2026-10-03T14:49:34.235181Z",
   "liveries": [
+    {
+      "name": "IE",
+      "profile_restrictions": [
+        "2800_2"
+      ],
+      "special_tags": [],
+      "spritesheet": null,
+      "variants": [
+        "ie_2800_2800_2_ie_train"
+      ],
+      "vehicle_identifier": "ie_2800"
+    },
     {
       "name": "IE",
       "profile_restrictions": [
@@ -17,6 +29,37 @@
     }
   ],
   "profiles": [
+    {
+      "identifier": "2800_2",
+      "name": "2-Car",
+      "resolved": {
+        "capacity": 43,
+        "cargo_classes": [
+          "CC_PASSENGERS"
+        ],
+        "default_cargo_type": null,
+        "introduction_date": "date(2000, 1, 1)",
+        "num_vehicles": 2,
+        "power": 697,
+        "speed": 75,
+        "sprite_pattern": [
+          1,
+          2
+        ],
+        "track_type": null,
+        "weight": 86
+      },
+      "source_restrictions": {
+        "special_tags": [],
+        "sprite_group": null
+      },
+      "sprite_group": null,
+      "spritesheet": null,
+      "variants": [
+        "ie_2800_2800_2_ie_train"
+      ],
+      "vehicle_identifier": "ie_2800"
+    },
     {
       "identifier": "22000_3",
       "name": "3-Car",
@@ -53,6 +96,258 @@
   "project": "EmeraldTrains",
   "schema_version": 1,
   "variants": [
+    {
+      "formation": {
+        "part_count": 2,
+        "sprite_pattern": [
+          1,
+          2
+        ]
+      },
+      "lighting": {
+        "overlay": {
+          "kind": "lighting_overlay",
+          "path": "WorkingData/EmeraldTrains/IE_2800_lights.png"
+        },
+        "transparent": {
+          "kind": "lighting_transparent",
+          "path": "WorkingData/EmeraldTrains/IE_2800_transparent.png"
+        }
+      },
+      "livery": {
+        "name": "IE"
+      },
+      "profile": {
+        "identifier": "2800_2",
+        "name": "2-Car"
+      },
+      "purchase": {
+        "file": {
+          "kind": "purchase_spritesheet",
+          "path": "WorkingData/EmeraldTrains/purchase_ie_2800_IE_2800_0_IE_2800_26.png"
+        },
+        "name": "spriteset_ie_2800_2800_2_ie_train_purchase",
+        "rows": [
+          {
+            "flags": [],
+            "height": 13,
+            "left_x": 0,
+            "offset_x": -25,
+            "offset_y": -8,
+            "upper_y": 0,
+            "width": 128
+          }
+        ],
+        "template": "tmpl_purchase",
+        "x": 0,
+        "y": 0
+      },
+      "source_restrictions": {
+        "livery_profiles": [
+          "2800_2"
+        ],
+        "livery_spritesheet": null,
+        "profile_spritesheet": null
+      },
+      "sprite_group": {
+        "reused": false,
+        "source": null
+      },
+      "sprite_id": {
+        "generation": 1,
+        "id": 1002
+      },
+      "spritesets": [
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/EmeraldTrains/palette/ie_2800/IE_2800.png"
+          },
+          "length": 8,
+          "order": 0,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y0",
+          "spriteset": "spriteset_ie_2800_2800_2_ie_train_0",
+          "template": "tmpl_train_8",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/EmeraldTrains/palette/ie_2800/IE_2800.png"
+          },
+          "length": 8,
+          "order": 1,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y26",
+          "spriteset": "spriteset_ie_2800_2800_2_ie_train_1",
+          "template": "tmpl_train_8",
+          "x": 0,
+          "y": 26
+        }
+      ],
+      "variant": {
+        "display_name": "I\u00c9 2800 Class \"Arrow\" - {SILVER}2-car{BLACK} - {GOLD}IE",
+        "graphics_emitted": true,
+        "identifier": "ie_2800_2800_2_ie_train",
+        "nml_filename": {
+          "kind": "nml",
+          "path": "ie_2800_2800_2_ie_train.gnml"
+        },
+        "vehicle_type": "TRAIN"
+      },
+      "vehicle": {
+        "identifier": "ie_2800",
+        "name": "I\u00c9 2800 Class"
+      }
+    },
     {
       "formation": {
         "part_count": 3,
@@ -389,6 +684,41 @@
     }
   ],
   "vehicles": [
+    {
+      "based_on": "",
+      "identifier": "ie_2800",
+      "introduction_date": "date(2000, 1, 1)",
+      "name": "I\u00c9 2800 Class",
+      "source_yaml": {
+        "kind": "source_yaml",
+        "path": "src/trains/DMU/IE_2800/IE_2800.yaml"
+      },
+      "special_tags": [],
+      "spritesheet": {
+        "kind": "source_artwork",
+        "path": "WorkingData/EmeraldTrains/palette/ie_2800/IE_2800.png"
+      },
+      "stats": {
+        "capacity": null,
+        "cargo_classes": [
+          "CC_PASSENGERS"
+        ],
+        "default_cargo_type": null,
+        "design_speed": null,
+        "loading_speed": null,
+        "power": 697,
+        "power_type": [
+          "diesel"
+        ],
+        "speed": 75,
+        "track_type": null,
+        "tractive_effort": 0.3,
+        "weight": 86
+      },
+      "subtitle": "",
+      "train_type": "MULTIPLE_UNIT",
+      "vehicle_type": "TRAIN"
+    },
     {
       "based_on": "",
       "identifier": "ie_22000",
