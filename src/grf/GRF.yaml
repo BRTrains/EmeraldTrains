@@ -1,0 +1,18 @@
+grf:
+  grfid: EMER
+  short_name: EmeraldTrains
+  name: Emerald Trains
+  description: Irish railway vehicles for OpenTTD
+
+versioning:
+  version: 1
+  compatible_version: 1
+
+purchase_list:
+  order: grouped
+
+params: []
+
+global_vehicle_switches: []
+
+global_actions: []

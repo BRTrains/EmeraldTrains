@@ -1,0 +1,8 @@
+project:
+  name: EmeraldTrains
+  build: true
+  docs: true
+  target_folders:
+    - src/trains
+  grf_folder: src/grf
+  palette: Sprites/ttd-newgrf-dos.gpl
