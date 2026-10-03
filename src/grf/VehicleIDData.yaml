@@ -1,0 +1,27 @@
+version: 1
+variants:
+- id: 1001
+  vehicle: ie_22000
+  profile: '22000_3'
+  livery: ie
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 63
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1001_ie_22000_22000_3_ie_train.gnml
+  identifier: ie_22000_22000_3_ie_train
+  name_string: str_ie_22000_22000_3_ie_train_name
+  strings:
+    str_ie_22000_22000_3_ie_train_name: "I\xC9 22000 Class \"InterCity Railcar\" -\
+      \ {SILVER}3-car{BLACK} - {GOLD}IE"
+    str_ie_22000_22000_3_ie_train_group_name: "I\xC9 22000 Class \"InterCity Railcar\"\
+      \ - {SILVER}3-car{BLACK} - {GOLD}IE"
+    str_ie_22000_22000_3_ie_train_nested_name: '{SILVER}3-car{BLACK} - {GOLD}IE'
