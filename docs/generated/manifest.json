@@ -1,8 +1,22 @@
 {
   "build_success": true,
   "builder_commit": "bf714dd0d8dc267662d5d6f798498d9a6becfa8b",
-  "generated_at": "2026-10-03T14:49:34.235181Z",
+  "generated_at": "2026-10-03T14:59:17.330492Z",
   "liveries": [
+    {
+      "name": "NI",
+      "profile_restrictions": [
+        "4000_3",
+        "4000_6"
+      ],
+      "special_tags": [],
+      "spritesheet": null,
+      "variants": [
+        "ni_4000_4000_3_ni_train",
+        "ni_4000_4000_6_ni_train"
+      ],
+      "vehicle_identifier": "ni_4000"
+    },
     {
       "name": "IE",
       "profile_restrictions": [
@@ -29,6 +43,73 @@
     }
   ],
   "profiles": [
+    {
+      "identifier": "4000_3",
+      "name": "3-Car",
+      "resolved": {
+        "capacity": 71,
+        "cargo_classes": [
+          "CC_PASSENGERS"
+        ],
+        "default_cargo_type": null,
+        "introduction_date": "date(2011, 9, 29)",
+        "num_vehicles": 3,
+        "power": 1046,
+        "speed": 90,
+        "sprite_pattern": [
+          1,
+          2,
+          1
+        ],
+        "track_type": null,
+        "weight": 126
+      },
+      "source_restrictions": {
+        "special_tags": [],
+        "sprite_group": null
+      },
+      "sprite_group": null,
+      "spritesheet": null,
+      "variants": [
+        "ni_4000_4000_3_ni_train"
+      ],
+      "vehicle_identifier": "ni_4000"
+    },
+    {
+      "identifier": "4000_6",
+      "name": "6-Car",
+      "resolved": {
+        "capacity": 71,
+        "cargo_classes": [
+          "CC_PASSENGERS"
+        ],
+        "default_cargo_type": null,
+        "introduction_date": "date(2011, 9, 29)",
+        "num_vehicles": 6,
+        "power": 1046,
+        "speed": 90,
+        "sprite_pattern": [
+          1,
+          2,
+          2,
+          2,
+          2,
+          1
+        ],
+        "track_type": null,
+        "weight": 126
+      },
+      "source_restrictions": {
+        "special_tags": [],
+        "sprite_group": "4000_3"
+      },
+      "sprite_group": "4000_3",
+      "spritesheet": null,
+      "variants": [
+        "ni_4000_4000_6_ni_train"
+      ],
+      "vehicle_identifier": "ni_4000"
+    },
     {
       "identifier": "2800_2",
       "name": "2-Car",
@@ -96,6 +177,940 @@
   "project": "EmeraldTrains",
   "schema_version": 1,
   "variants": [
+    {
+      "formation": {
+        "part_count": 3,
+        "sprite_pattern": [
+          1,
+          2,
+          1
+        ]
+      },
+      "lighting": {
+        "overlay": null,
+        "transparent": null
+      },
+      "livery": {
+        "name": "NI"
+      },
+      "profile": {
+        "identifier": "4000_3",
+        "name": "3-Car"
+      },
+      "purchase": {
+        "file": {
+          "kind": "purchase_spritesheet",
+          "path": "WorkingData/EmeraldTrains/purchase_ni_4000_NI_4000_0_NI_4000_26_NI_4000_0.png"
+        },
+        "name": "spriteset_ni_4000_4000_3_ni_train_purchase",
+        "rows": [
+          {
+            "flags": [],
+            "height": 13,
+            "left_x": 0,
+            "offset_x": -25,
+            "offset_y": -8,
+            "upper_y": 0,
+            "width": 128
+          }
+        ],
+        "template": "tmpl_purchase",
+        "x": 0,
+        "y": 0
+      },
+      "source_restrictions": {
+        "livery_profiles": [
+          "4000_3",
+          "4000_6"
+        ],
+        "livery_spritesheet": null,
+        "profile_spritesheet": null
+      },
+      "sprite_group": {
+        "reused": false,
+        "source": null
+      },
+      "sprite_id": {
+        "generation": 1,
+        "id": 1003
+      },
+      "spritesets": [
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/EmeraldTrains/palette/ni_4000/NI_4000.png"
+          },
+          "length": 8,
+          "order": 0,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y0",
+          "spriteset": "spriteset_ni_4000_4000_3_ni_train_0",
+          "template": "tmpl_train_8",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/EmeraldTrains/palette/ni_4000/NI_4000.png"
+          },
+          "length": 8,
+          "order": 1,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y26",
+          "spriteset": "spriteset_ni_4000_4000_3_ni_train_1",
+          "template": "tmpl_train_8",
+          "x": 0,
+          "y": 26
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/EmeraldTrains/palette/ni_4000/NI_4000.png"
+          },
+          "length": 8,
+          "order": 2,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y0",
+          "spriteset": "spriteset_ni_4000_4000_3_ni_train_0",
+          "template": "tmpl_train_8",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "variant": {
+        "display_name": "NIR 4000 Class \"C4K\" - {SILVER}3-car{BLACK} - {GOLD}NI",
+        "graphics_emitted": true,
+        "identifier": "ni_4000_4000_3_ni_train",
+        "nml_filename": {
+          "kind": "nml",
+          "path": "ni_4000_4000_3_ni_train.gnml"
+        },
+        "vehicle_type": "TRAIN"
+      },
+      "vehicle": {
+        "identifier": "ni_4000",
+        "name": "NIR 4000 Class"
+      }
+    },
+    {
+      "formation": {
+        "part_count": 6,
+        "sprite_pattern": [
+          1,
+          2,
+          2,
+          2,
+          2,
+          1
+        ]
+      },
+      "lighting": {
+        "overlay": null,
+        "transparent": null
+      },
+      "livery": {
+        "name": "NI"
+      },
+      "profile": {
+        "identifier": "4000_6",
+        "name": "6-Car"
+      },
+      "purchase": {
+        "file": {
+          "kind": "purchase_spritesheet",
+          "path": "WorkingData/EmeraldTrains/purchase_ni_4000_NI_4000_0_NI_4000_26_NI_4000_26_NI_4000_26_NI_4000_26_NI_4000_0.png"
+        },
+        "name": "spriteset_ni_4000_4000_6_ni_train_purchase",
+        "rows": [
+          {
+            "flags": [],
+            "height": 13,
+            "left_x": 0,
+            "offset_x": -25,
+            "offset_y": -8,
+            "upper_y": 0,
+            "width": 128
+          }
+        ],
+        "template": "tmpl_purchase",
+        "x": 0,
+        "y": 0
+      },
+      "source_restrictions": {
+        "livery_profiles": [
+          "4000_3",
+          "4000_6"
+        ],
+        "livery_spritesheet": null,
+        "profile_spritesheet": null
+      },
+      "sprite_group": {
+        "reused": true,
+        "source": "4000_3"
+      },
+      "sprite_id": {
+        "generation": 1,
+        "id": 1004
+      },
+      "spritesets": [
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/EmeraldTrains/palette/ni_4000/NI_4000.png"
+          },
+          "length": 8,
+          "order": 0,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y0",
+          "spriteset": "spriteset_ni_4000_4000_6_ni_train_0",
+          "template": "tmpl_train_8",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/EmeraldTrains/palette/ni_4000/NI_4000.png"
+          },
+          "length": 8,
+          "order": 1,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y26",
+          "spriteset": "spriteset_ni_4000_4000_6_ni_train_1",
+          "template": "tmpl_train_8",
+          "x": 0,
+          "y": 26
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/EmeraldTrains/palette/ni_4000/NI_4000.png"
+          },
+          "length": 8,
+          "order": 2,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y26",
+          "spriteset": "spriteset_ni_4000_4000_6_ni_train_1",
+          "template": "tmpl_train_8",
+          "x": 0,
+          "y": 26
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/EmeraldTrains/palette/ni_4000/NI_4000.png"
+          },
+          "length": 8,
+          "order": 3,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y26",
+          "spriteset": "spriteset_ni_4000_4000_6_ni_train_1",
+          "template": "tmpl_train_8",
+          "x": 0,
+          "y": 26
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/EmeraldTrains/palette/ni_4000/NI_4000.png"
+          },
+          "length": 8,
+          "order": 4,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y26",
+          "spriteset": "spriteset_ni_4000_4000_6_ni_train_1",
+          "template": "tmpl_train_8",
+          "x": 0,
+          "y": 26
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/EmeraldTrains/palette/ni_4000/NI_4000.png"
+          },
+          "length": 8,
+          "order": 5,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y0",
+          "spriteset": "spriteset_ni_4000_4000_6_ni_train_0",
+          "template": "tmpl_train_8",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "variant": {
+        "display_name": "NIR 4000 Class \"C4K\" - {SILVER}6-car{BLACK} - {GOLD}NI",
+        "graphics_emitted": true,
+        "identifier": "ni_4000_4000_6_ni_train",
+        "nml_filename": {
+          "kind": "nml",
+          "path": "ni_4000_4000_6_ni_train.gnml"
+        },
+        "vehicle_type": "TRAIN"
+      },
+      "vehicle": {
+        "identifier": "ni_4000",
+        "name": "NIR 4000 Class"
+      }
+    },
     {
       "formation": {
         "part_count": 2,
@@ -684,6 +1699,41 @@
     }
   ],
   "vehicles": [
+    {
+      "based_on": "",
+      "identifier": "ni_4000",
+      "introduction_date": "date(2011, 9, 29)",
+      "name": "NIR 4000 Class",
+      "source_yaml": {
+        "kind": "source_yaml",
+        "path": "src/trains/DMU/NI_4000/NI_4000.yaml"
+      },
+      "special_tags": [],
+      "spritesheet": {
+        "kind": "source_artwork",
+        "path": "WorkingData/EmeraldTrains/palette/ni_4000/NI_4000.png"
+      },
+      "stats": {
+        "capacity": null,
+        "cargo_classes": [
+          "CC_PASSENGERS"
+        ],
+        "default_cargo_type": null,
+        "design_speed": null,
+        "loading_speed": null,
+        "power": 1046,
+        "power_type": [
+          "diesel"
+        ],
+        "speed": 90,
+        "track_type": null,
+        "tractive_effort": 0.3,
+        "weight": 126
+      },
+      "subtitle": "",
+      "train_type": "MULTIPLE_UNIT",
+      "vehicle_type": "TRAIN"
+    },
     {
       "based_on": "",
       "identifier": "ie_2800",

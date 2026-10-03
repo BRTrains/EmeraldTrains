@@ -1,0 +1,37 @@
+info:
+  identifier: ni_4000
+  name: NIR 4000 Class
+  nickname: C4K
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 126
+  length: 8
+  power: 1046
+  speed: 90
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+
+cargo: passenger
+
+dates:
+  introduction_date: 2011-09-29
+
+profiles:
+  - identifier: '4000_3'
+    name: 3-Car
+    num_vehicles: 3
+    capacity: 71
+    sprite_override: [1, 2, 1]
+  - identifier: '4000_6'
+    name: 6-Car
+    num_vehicles: 6
+    capacity: 71
+    sprite_group: '4000_3'
+    sprite_override: [1, 2, 2, 2, 2, 1]
+
+liveries:
+  - name: NI
+    profiles: ['4000_3', '4000_6']

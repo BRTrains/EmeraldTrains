@@ -49,3 +49,56 @@ variants:
     str_ie_2800_2800_2_ie_train_group_name: "I\xC9 2800 Class \"Arrow\" - {SILVER}2-car{BLACK}\
       \ - {GOLD}IE"
     str_ie_2800_2800_2_ie_train_nested_name: '{SILVER}2-car{BLACK} - {GOLD}IE'
+- id: 1003
+  vehicle: ni_4000
+  profile: '4000_3'
+  livery: ni
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 71
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1003_ni_4000_4000_3_ni_train.gnml
+  identifier: ni_4000_4000_3_ni_train
+  name_string: str_ni_4000_4000_3_ni_train_name
+  strings:
+    str_ni_4000_4000_3_ni_train_name: NIR 4000 Class "C4K" - {SILVER}3-car{BLACK}
+      - {GOLD}NI
+    str_ni_4000_4000_3_ni_train_group_name: NIR 4000 Class "C4K" - {SILVER}3-car{BLACK}
+      - {GOLD}NI
+    str_ni_4000_4000_3_ni_train_nested_name: '{SILVER}3-car{BLACK} - {GOLD}NI'
+- id: 1004
+  vehicle: ni_4000
+  profile: '4000_6'
+  livery: ni
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 71
+    articulated_count: 6
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1004_ni_4000_4000_6_ni_train.gnml
+  identifier: ni_4000_4000_6_ni_train
+  name_string: str_ni_4000_4000_6_ni_train_name
+  strings:
+    str_ni_4000_4000_6_ni_train_name: NIR 4000 Class "C4K" - {SILVER}6-car{BLACK}
+      - {GOLD}NI
+    str_ni_4000_4000_6_ni_train_group_name: NIR 4000 Class "C4K" - {SILVER}6-car{BLACK}
+      - {GOLD}NI
+    str_ni_4000_4000_6_ni_train_nested_name: '{SILVER}6-car{BLACK} - {GOLD}NI'
