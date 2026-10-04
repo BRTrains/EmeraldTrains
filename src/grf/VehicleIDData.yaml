@@ -102,3 +102,59 @@ variants:
     str_ni_4000_4000_6_ni_train_group_name: NIR 4000 Class "C4K" - {SILVER}6-car{BLACK}
       - {GOLD}NI
     str_ni_4000_4000_6_ni_train_nested_name: '{SILVER}6-car{BLACK} - {GOLD}NI'
+- id: 1005
+  vehicle: ie_29000
+  profile: '29000_4'
+  livery: commuter green, white, and navy
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 46
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1005_ie_29000_29000_4_commuter_green__white__and_navy_train.gnml
+  identifier: ie_29000_29000_4_commuter_green__white__and_navy_train
+  name_string: str_ie_29000_29000_4_commuter_green__white__and_navy_train_name
+  strings:
+    str_ie_29000_29000_4_commuter_green__white__and_navy_train_name: "I\xC9 29000\
+      \ Class \"Commuter Railcar\" - {SILVER}4-car{BLACK} - {GOLD}Commuter Green White\
+      \ and Navy"
+    str_ie_29000_29000_4_commuter_green__white__and_navy_train_group_name: "I\xC9\
+      \ 29000 Class \"Commuter Railcar\" - {SILVER}4-car{BLACK} - {GOLD}Commuter Green\
+      \ White and Navy"
+    str_ie_29000_29000_4_commuter_green__white__and_navy_train_nested_name: '{SILVER}4-car{BLACK}
+      - {GOLD}Commuter Green White and Navy'
+- id: 1006
+  vehicle: ie_29000
+  profile: '29000_4'
+  livery: green goddess
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 46
+    articulated_count: 4
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1006_ie_29000_29000_4_green_goddess_train.gnml
+  identifier: ie_29000_29000_4_green_goddess_train
+  name_string: str_ie_29000_29000_4_green_goddess_train_name
+  strings:
+    str_ie_29000_29000_4_green_goddess_train_name: "I\xC9 29000 Class \"Commuter Railcar\"\
+      \ - {SILVER}4-car{BLACK} - {GOLD}Green Goddess"
+    str_ie_29000_29000_4_green_goddess_train_group_name: "I\xC9 29000 Class \"Commuter\
+      \ Railcar\" - {SILVER}4-car{BLACK} - {GOLD}Green Goddess"
+    str_ie_29000_29000_4_green_goddess_train_nested_name: '{SILVER}4-car{BLACK} -
+      {GOLD}Green Goddess'

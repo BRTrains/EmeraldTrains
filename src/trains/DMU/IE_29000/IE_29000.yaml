@@ -1,0 +1,33 @@
+info:
+  identifier: ie_29000
+  name: IÉ 29000 Class
+  nickname: Commuter Railcar
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 174
+  length: 8
+  power: 800
+  speed: 75
+  tractive_effort: 0.3
+  power_type:
+    - diesel
+
+cargo: passenger
+
+dates:
+  introduction_date: 2003-06-30
+
+profiles:
+  - identifier: '29000_4'
+    name: 4-Car
+    num_vehicles: 4
+    capacity: 46
+    sprite_override: [1, 2, 2, 3]
+
+liveries:
+  - name: Commuter Green, White, and Navy
+    profiles: ['29000_4']
+  - name: Green Goddess
+    profiles: ['29000_4']

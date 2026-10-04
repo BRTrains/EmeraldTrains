@@ -1,7 +1,7 @@
 {
   "build_success": true,
-  "builder_commit": "bf714dd0d8dc267662d5d6f798498d9a6becfa8b",
-  "generated_at": "2026-10-03T21:43:08.920677Z",
+  "builder_commit": "568d2f429f03598000b481a38ab65c729666f19c",
+  "generated_at": "2026-10-04T01:38:06.962192Z",
   "liveries": [
     {
       "name": "NI",
@@ -28,6 +28,30 @@
         "ie_2800_2800_2_ie_train"
       ],
       "vehicle_identifier": "ie_2800"
+    },
+    {
+      "name": "Commuter Green, White, and Navy",
+      "profile_restrictions": [
+        "29000_4"
+      ],
+      "special_tags": [],
+      "spritesheet": null,
+      "variants": [
+        "ie_29000_29000_4_commuter_green__white__and_navy_train"
+      ],
+      "vehicle_identifier": "ie_29000"
+    },
+    {
+      "name": "Green Goddess",
+      "profile_restrictions": [
+        "29000_4"
+      ],
+      "special_tags": [],
+      "spritesheet": null,
+      "variants": [
+        "ie_29000_29000_4_green_goddess_train"
+      ],
+      "vehicle_identifier": "ie_29000"
     },
     {
       "name": "IE",
@@ -140,6 +164,40 @@
         "ie_2800_2800_2_ie_train"
       ],
       "vehicle_identifier": "ie_2800"
+    },
+    {
+      "identifier": "29000_4",
+      "name": "4-Car",
+      "resolved": {
+        "capacity": 46,
+        "cargo_classes": [
+          "CC_PASSENGERS"
+        ],
+        "default_cargo_type": null,
+        "introduction_date": "date(2003, 6, 30)",
+        "num_vehicles": 4,
+        "power": 800,
+        "speed": 75,
+        "sprite_pattern": [
+          1,
+          2,
+          2,
+          3
+        ],
+        "track_type": null,
+        "weight": 174
+      },
+      "source_restrictions": {
+        "special_tags": [],
+        "sprite_group": null
+      },
+      "sprite_group": null,
+      "spritesheet": null,
+      "variants": [
+        "ie_29000_29000_4_commuter_green__white__and_navy_train",
+        "ie_29000_29000_4_green_goddess_train"
+      ],
+      "vehicle_identifier": "ie_29000"
     },
     {
       "identifier": "22000_3",
@@ -1377,6 +1435,862 @@
     },
     {
       "formation": {
+        "part_count": 4,
+        "sprite_pattern": [
+          1,
+          2,
+          2,
+          3
+        ]
+      },
+      "lighting": {
+        "overlay": {
+          "kind": "lighting_overlay",
+          "path": "WorkingData/EmeraldTrains/IE_29000_lights.png"
+        },
+        "transparent": {
+          "kind": "lighting_transparent",
+          "path": "WorkingData/EmeraldTrains/IE_29000_transparent.png"
+        }
+      },
+      "livery": {
+        "name": "Commuter Green, White, and Navy"
+      },
+      "profile": {
+        "identifier": "29000_4",
+        "name": "4-Car"
+      },
+      "purchase": {
+        "file": {
+          "kind": "purchase_spritesheet",
+          "path": "WorkingData/EmeraldTrains/purchase_ie_29000_IE_29000_0_IE_29000_26_IE_29000_26_IE_29000_52.png"
+        },
+        "name": "spriteset_ie_29000_29000_4_commuter_green__white__and_navy_train_purchase",
+        "rows": [
+          {
+            "flags": [],
+            "height": 13,
+            "left_x": 0,
+            "offset_x": -25,
+            "offset_y": -8,
+            "upper_y": 0,
+            "width": 128
+          }
+        ],
+        "template": "tmpl_purchase",
+        "x": 0,
+        "y": 0
+      },
+      "source_restrictions": {
+        "livery_profiles": [
+          "29000_4"
+        ],
+        "livery_spritesheet": null,
+        "profile_spritesheet": null
+      },
+      "sprite_group": {
+        "reused": false,
+        "source": null
+      },
+      "sprite_id": {
+        "generation": 1,
+        "id": 1005
+      },
+      "spritesets": [
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/EmeraldTrains/palette/ie_29000/IE_29000.png"
+          },
+          "length": 8,
+          "order": 0,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y0",
+          "spriteset": "spriteset_ie_29000_29000_4_commuter_green__white__and_navy_train_0",
+          "template": "tmpl_train_8",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/EmeraldTrains/palette/ie_29000/IE_29000.png"
+          },
+          "length": 8,
+          "order": 1,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y26",
+          "spriteset": "spriteset_ie_29000_29000_4_commuter_green__white__and_navy_train_1",
+          "template": "tmpl_train_8",
+          "x": 0,
+          "y": 26
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/EmeraldTrains/palette/ie_29000/IE_29000.png"
+          },
+          "length": 8,
+          "order": 2,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y26",
+          "spriteset": "spriteset_ie_29000_29000_4_commuter_green__white__and_navy_train_1",
+          "template": "tmpl_train_8",
+          "x": 0,
+          "y": 26
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/EmeraldTrains/palette/ie_29000/IE_29000.png"
+          },
+          "length": 8,
+          "order": 3,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y52",
+          "spriteset": "spriteset_ie_29000_29000_4_commuter_green__white__and_navy_train_2",
+          "template": "tmpl_train_8",
+          "x": 0,
+          "y": 52
+        }
+      ],
+      "variant": {
+        "display_name": "I\u00c9 29000 Class \"Commuter Railcar\" - {SILVER}4-car{BLACK} - {GOLD}Commuter Green, White, and Navy",
+        "graphics_emitted": true,
+        "identifier": "ie_29000_29000_4_commuter_green__white__and_navy_train",
+        "nml_filename": {
+          "kind": "nml",
+          "path": "ie_29000_29000_4_commuter_green__white__and_navy_train.gnml"
+        },
+        "vehicle_type": "TRAIN"
+      },
+      "vehicle": {
+        "identifier": "ie_29000",
+        "name": "I\u00c9 29000 Class"
+      }
+    },
+    {
+      "formation": {
+        "part_count": 4,
+        "sprite_pattern": [
+          1,
+          2,
+          2,
+          3
+        ]
+      },
+      "lighting": {
+        "overlay": {
+          "kind": "lighting_overlay",
+          "path": "WorkingData/EmeraldTrains/IE_29000_lights.png"
+        },
+        "transparent": {
+          "kind": "lighting_transparent",
+          "path": "WorkingData/EmeraldTrains/IE_29000_transparent.png"
+        }
+      },
+      "livery": {
+        "name": "Green Goddess"
+      },
+      "profile": {
+        "identifier": "29000_4",
+        "name": "4-Car"
+      },
+      "purchase": {
+        "file": {
+          "kind": "purchase_spritesheet",
+          "path": "WorkingData/EmeraldTrains/purchase_ie_29000_IE_29000_78_IE_29000_104_IE_29000_104_IE_29000_130.png"
+        },
+        "name": "spriteset_ie_29000_29000_4_green_goddess_train_purchase",
+        "rows": [
+          {
+            "flags": [],
+            "height": 13,
+            "left_x": 0,
+            "offset_x": -25,
+            "offset_y": -8,
+            "upper_y": 0,
+            "width": 128
+          }
+        ],
+        "template": "tmpl_purchase",
+        "x": 0,
+        "y": 0
+      },
+      "source_restrictions": {
+        "livery_profiles": [
+          "29000_4"
+        ],
+        "livery_spritesheet": null,
+        "profile_spritesheet": null
+      },
+      "sprite_group": {
+        "reused": false,
+        "source": null
+      },
+      "sprite_id": {
+        "generation": 1,
+        "id": 1006
+      },
+      "spritesets": [
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/EmeraldTrains/palette/ie_29000/IE_29000.png"
+          },
+          "length": 8,
+          "order": 0,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y78",
+          "spriteset": "spriteset_ie_29000_29000_4_green_goddess_train_0",
+          "template": "tmpl_train_8",
+          "x": 0,
+          "y": 78
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/EmeraldTrains/palette/ie_29000/IE_29000.png"
+          },
+          "length": 8,
+          "order": 1,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y104",
+          "spriteset": "spriteset_ie_29000_29000_4_green_goddess_train_1",
+          "template": "tmpl_train_8",
+          "x": 0,
+          "y": 104
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/EmeraldTrains/palette/ie_29000/IE_29000.png"
+          },
+          "length": 8,
+          "order": 2,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y104",
+          "spriteset": "spriteset_ie_29000_29000_4_green_goddess_train_1",
+          "template": "tmpl_train_8",
+          "x": 0,
+          "y": 104
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/EmeraldTrains/palette/ie_29000/IE_29000.png"
+          },
+          "length": 8,
+          "order": 3,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y130",
+          "spriteset": "spriteset_ie_29000_29000_4_green_goddess_train_2",
+          "template": "tmpl_train_8",
+          "x": 0,
+          "y": 130
+        }
+      ],
+      "variant": {
+        "display_name": "I\u00c9 29000 Class \"Commuter Railcar\" - {SILVER}4-car{BLACK} - {GOLD}Green Goddess",
+        "graphics_emitted": true,
+        "identifier": "ie_29000_29000_4_green_goddess_train",
+        "nml_filename": {
+          "kind": "nml",
+          "path": "ie_29000_29000_4_green_goddess_train.gnml"
+        },
+        "vehicle_type": "TRAIN"
+      },
+      "vehicle": {
+        "identifier": "ie_29000",
+        "name": "I\u00c9 29000 Class"
+      }
+    },
+    {
+      "formation": {
         "part_count": 3,
         "sprite_pattern": [
           1,
@@ -1782,6 +2696,41 @@
         "track_type": null,
         "tractive_effort": 0.3,
         "weight": 86
+      },
+      "subtitle": "",
+      "train_type": "MULTIPLE_UNIT",
+      "vehicle_type": "TRAIN"
+    },
+    {
+      "based_on": "",
+      "identifier": "ie_29000",
+      "introduction_date": "date(2003, 6, 30)",
+      "name": "I\u00c9 29000 Class",
+      "source_yaml": {
+        "kind": "source_yaml",
+        "path": "src/trains/DMU/IE_29000/IE_29000.yaml"
+      },
+      "special_tags": [],
+      "spritesheet": {
+        "kind": "source_artwork",
+        "path": "WorkingData/EmeraldTrains/palette/ie_29000/IE_29000.png"
+      },
+      "stats": {
+        "capacity": null,
+        "cargo_classes": [
+          "CC_PASSENGERS"
+        ],
+        "default_cargo_type": null,
+        "design_speed": null,
+        "loading_speed": null,
+        "power": 800,
+        "power_type": [
+          "diesel"
+        ],
+        "speed": 75,
+        "track_type": null,
+        "tractive_effort": 0.3,
+        "weight": 174
       },
       "subtitle": "",
       "train_type": "MULTIPLE_UNIT",
